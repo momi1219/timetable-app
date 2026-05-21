@@ -1,9 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ja">
 <head>
-    <title>TimeTable App</title>
+    <meta charset="UTF-8">
+    <title>授業登録</title>
 </head>
 <body>
-<h1>Hello Spring Boot!</h1>
+
+<h1>授業登録フォーム</h1>
+
+<form action="/add" method="post">
+
+    <p>
+        授業名:
+        <input type="text" name="className">
+    </p>
+
+    <p>
+        教員名:
+        <input type="text" name="teacher">
+    </p>
+
+    <p>
+        曜日:
+        <input type="text" name="day">
+    </p>
+
+    <button type="submit">
+        登録
+    </button>
+
+</form>
+
 </body>
 </html>

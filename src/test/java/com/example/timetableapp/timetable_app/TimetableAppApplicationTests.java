@@ -1,4 +1,4 @@
-package com.example.timetable_app;
+package com.example.timetableapp.timetable_app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

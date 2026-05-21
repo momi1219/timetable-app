@@ -1,4 +1,4 @@
-package com.example.timetable_app;
+package com.example.timetableapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TimetableAppApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TimetableAppApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TimetableAppApplication.class, args);
+    }
 
 }
